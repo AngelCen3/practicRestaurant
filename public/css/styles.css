@@ -1,4 +1,34 @@
-h3 {
-    color:blue;
-    /*background-color: blue;*/
+body{  /*We set up our body Styles*/
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {/*Quiero que todas las etiquetas ancla no tengan esta decoracion*/
+    text-decoration: none;
+    cursor: pointer;
+}
+header {
+    width: 100%;  /*Todo el ancho de nuestra pantalla*/
+    height: 60px; /*altura*/
+
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{ /*Somos mas especificos al dar style*/
+    width: 250px;
+    height: auto;  /*como ya definimos en su padre header height 60px ponemos auto*/
+    display: flex;
+    list-style: none;/*le quitamos los bulets de las listas ul*/
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 10px;
+    color: #000000;
 }
