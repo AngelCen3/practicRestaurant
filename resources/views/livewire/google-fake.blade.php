@@ -10,6 +10,27 @@
             </ul>
         </nav>
     </header>
-
-
+    <main><!--Main content-->
+        <section class="main-logo"><img src="" alt=""></section>
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="search-icon">
+                </span>
+                <input type="text">
+                <a class="micro-icon"></a>
+            </div>
+        </section>
+        <section class="main-button">
+            <div>
+                <button>
+                    Buscar con Google
+                </button>
+            </div>
+            <div>
+                <button>
+                    Me siento con suerte
+                </button>
+            </div>
+        </section>
+    </main>
 </div>
