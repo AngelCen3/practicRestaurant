@@ -11,7 +11,7 @@
         </nav>
     </header>
     <main><!--Main content-->
-        <section class="main-logo"><img src="" alt=""></section>
+        <section class="main-logo"><img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="google logo"></section>
         <section class="main-input">
             <div class="main-input-container">
                 <span class="search-icon">

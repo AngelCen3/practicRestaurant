@@ -45,3 +45,15 @@ nav .nav-right-section img {
     border-radius: 50%;
     margin-left: 10px;
 }
+main{
+    margin-top: 150px;
+    text-align: center; /*Centra el contenido de nuestra etiqueta main*/
+}
+main .main-logo {
+    width: 530px;
+    margin: 0 auto; /* divide el espacio /2 lo que hace es cetrar el contenido*/
+    margin-bottom: 35px;
+}
+main .main-logo img {
+    width: 300px;
+}
