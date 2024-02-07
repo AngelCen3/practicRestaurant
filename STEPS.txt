@@ -1,0 +1,11 @@
+laravel new practicRestaurant
+cd .\practicRestaurant\
+npm install --save-dev vite  //npm run dev
+composer require livewire/livewire
+php artisan make:livewire mainMenu
+git init
+gh repo create practicRestaurant --public --source=. --default-branch=main # Aquí especificamos la rama principal como "main"
+git add .
+git commit -m "Este es un proyecto para ser mas rapido en la captura de ordenes en mi trabajo"
+git push -u origin main
+code .
