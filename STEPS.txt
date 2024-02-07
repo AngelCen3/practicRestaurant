@@ -9,3 +9,39 @@ git add .
 git commit -m "Este es un proyecto para ser mas rapido en la captura de ordenes en mi trabajo"
 git push -u origin main
 code .
+php artisan make:migration create_menus_table --create=menus
+php artisan make:migration create_submenus_table --create=submenus
+php artisan make:model Menu
+php artisan make:model Submenu
+php artisan make:factory MenuFactory --model=Menu
+php artisan make:factory SubmenuFactory --model=Submenu
+php artisan livewire:layout
+npm run dev
+npm install --save-dev vite  #esto es un comentario
+npm run dev
+php artisan serve
+npm run dev
+npm install --save-dev vite  #para que pueda usar npm run de
+npm run dev
+php artisan serve
+php artisan make:livewire googleFake
+
+
+
+En HTML hay dos tipos de etiquetas de CONTENEDORAS y de CONTENIDO
+
+Esto es un atajo
+ul>li*4>a    <-- lo cual genera lo siguiente:
+
+<ul>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+</ul>
+
+
+Vamos a manejar tres tipos de layout
+ display:layout
+  display: grid
+   display: flex
