@@ -34,6 +34,7 @@ nav .nav-right-section a {
 }
 
 nav .nav-right-section .menu-icon {
+    /*boton del menu del parte superior derecha*/
     background-image: url('https://static.thenounproject.com/png/756729-200.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -56,4 +57,24 @@ main .main-logo {
 }
 main .main-logo img {
     width: 300px;
+}
+main .main-input {
+    width: 530px;
+    margin: 0 auto; /* divide el espacio /2 lo que hace es cetrar el contenido*/
+    margin-bottom: 35px;
+}
+main .main-input-container {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex; /*Me permite colocar los elementos de manera lineal*/
+    justify-content: center;
+    align-items: center;   /*Alinea los elementos de manera centrada*/
+}
+main .main-input input {
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none; /*Nos sirve para quitar el borde generado cuando damos click a un input */
+
 }
